@@ -9,9 +9,16 @@ const Login = () => {
           <h1>Hello Word</h1>
           <p>Lorem ipsum dolor sipe asperiores alias.</p>
           <span>Dont you have an accound?</span>
-          
+          <button>Registarse</button>
         </div>
-        <div className="right"></div>
+        <div className="right">
+        <h1>Login</h1>
+        <form>
+          <input type="text" placeholder='Username' />
+          <input type="password" placeholder='Password' />
+          <button>Login</button>
+        </form>
+        </div>
       </div>
     </div>
   );
