@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Login from './pages/login/login';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Vite + eat</h1>
+        <Login/>
       </div>
     </>
   );
