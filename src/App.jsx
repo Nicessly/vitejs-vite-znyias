@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Register from './pages/register/register';
+import Login from './pages/login/login';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <Register/>
+        <Login/>
       </div>
     </>
   );
