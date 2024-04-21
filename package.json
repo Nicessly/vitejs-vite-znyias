@@ -24,6 +24,7 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "sas": "^3.0.4",
     "sass": "^1.75.0",
+    "sass-loader": "^14.2.1",
     "vite": "^5.2.8"
   }
 }
